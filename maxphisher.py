@@ -1,19 +1,3 @@
-# -*- coding: UTF-8 -*-
-# ToolName   : MaxPhisher
-# Author     : KasRoudra
-# License    : MIT
-# Copyright  : KasRoudra (2022-2023)
-# Github     : https://github.com/KasRoudra
-# Contact    : https://m.me/KasRoudra
-# Description: MaxPhisher is a phishing tool in python
-# Tags       : Multi phishing, login phishing, image phishing, video phishing, clipboard steal
-# 1st Commit : 08/9/2022
-# Language   : Python
-# Portable file/script
-# If you copy open source code, consider giving credit
-# Credits    : PyPhisher, VidPhisher, CamHacker, IP-Tracker, StromBreaker, Seeker
-# Env        : #!/usr/bin/env python
-
 
 """
 MIT License
@@ -127,8 +111,6 @@ logo = f"""
 {yellow}| |\/| |/ _` \ \/ / |_) | '_ \| / __| '_ \ / _ \ '__|
 {blue}| |  | | (_| |>  <|  __/| | | | \__ \ | | |  __/ |
 {red}|_|  |_|\__,_/_/\_\_|   |_| |_|_|___/_| |_|\___|_|
-{yellow}{" "*35}         [{blue}v{version[:3]}{yellow}]
-{cyan}{" "*20}[{blue}By {green}\x53\x6f\x6b\x73\x65\x72\x65\x79\x76\x61\x74\x68\x6e\x61\x75\x6b{cyan}]
 """
 
 lx_help = f"""
@@ -1642,4 +1624,5 @@ if __name__ == '__main__':
     main()
             
 # If this code helped you, consider staring repository. Your stars encourage me a lot!
+
 
