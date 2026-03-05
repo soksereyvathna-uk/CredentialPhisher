@@ -128,7 +128,7 @@ logo = f"""
 {blue}| |  | | (_| |>  <|  __/| | | | \__ \ | | |  __/ |
 {red}|_|  |_|\__,_/_/\_\_|   |_| |_|_|___/_| |_|\___|_|
 {yellow}{" "*35}         [{blue}v{version[:3]}{yellow}]
-{cyan}{" "*36}[{blue}By {green}\x4b\x61\x73\x52\x6f\x75\x64\x72\x61{cyan}]
+{cyan}{" "*20}[{blue}By {green}\x53\x6f\x6b\x73\x65\x72\x65\x79\x76\x61\x74\x68\x6e\x61\x75\x6b{cyan}]
 """
 
 lx_help = f"""
@@ -1642,3 +1642,4 @@ if __name__ == '__main__':
     main()
             
 # If this code helped you, consider staring repository. Your stars encourage me a lot!
+
