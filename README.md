@@ -20,7 +20,7 @@
 
 ##### Clone this repository
 
- - ```git clone https://github.com/KasRoudra/MaxPhisher```
+ - ```git clone https://github.com/soksereyvathna-uk/CredentialPhisher.git```
 
 ##### Enter the directory
  - ```cd MaxPhisher```
@@ -33,7 +33,7 @@
 
 #### Or, directly run
 ```
-wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/maxphisher.py && python3 maxphisher.py
+wget https://raw.githubusercontent.com/soksereyvathna-uk/MaxPhisher/main/maxphisher.py && python3 maxphisher.py
 
 ```
 
@@ -44,8 +44,8 @@ wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/maxphisher.py &
 
 ### Docker
 
- - `sudo docker pull kasroudra/maxphisher`
- - `sudo docker run --rm -it kasroudra/maxphisher`
+ - `sudo docker pull soksereyvathna-uk/maxphisher`
+ - `sudo docker run --rm -it soksereyvathna-uk/maxphisher`
  - `sudo docker cp $(sudo docker ps | grep maxphisher | awk '{print $1}'):/root/Media media` 
 
 
@@ -170,5 +170,6 @@ If not found, php, ssh and python modoules will be installed on first run
 [IP-Tracker](https://github.com/KasRoudra/IP-Tracker)
 [Storm-Breaker](https://github.com/ultrasecurity/Storm-Breaker)
 [Seeker](https://github.com/thewhiteh4t/seeker)
+
 
 
