@@ -1,21 +1,5 @@
 <h1 align="center">MaxPhisher</h1>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Version-1.2.2-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/KasRoudra/MaxPhisher?style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/forks/KasRoudra/MaxPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/watchers/KasRoudra/MaxPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/issues/KasRoudra/MaxPhisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/license/KasRoudra/MaxPhisher?style=for-the-badge&color=blue">
-  <img src="https://hits.dwyl.com/KasRoudra/MaxPhisher.svg" width="140" height="28">
-<br>
-<br>
-  <img src="https://img.shields.io/badge/Author-KasRoudra-purple?style=flat-square">
-  <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
-  <img src="https://img.shields.io/badge/Made%20in-Bangladesh-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
-</p>
-
 
 ### [√] Description :
 
@@ -62,8 +46,7 @@ wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/maxphisher.py &
 
  - `sudo docker pull kasroudra/maxphisher`
  - `sudo docker run --rm -it kasroudra/maxphisher`
- - `sudo docker cp $(sudo docker ps | grep maxphisher | awk '{print $1}'):/root/Media media` [Run this on another terminal to copy received files from docker to media folder while keeping the container running]
-
+ - `sudo docker cp $(sudo docker ps | grep maxphisher | awk '{print $1}'):/root/Media media` 
 
 
 ### Support
@@ -166,9 +149,6 @@ If not found, php, ssh and python modoules will be installed on first run
 4. Send the generated link to victim
 5. Wait for victim login. As soon as he/she logs in, credentials will be captured
 
-<h1 align="center">Example</h1>
-
-![MaxPhisher](https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/files/maxphisher.gif)
 
  
 ## Solution of common issues
@@ -176,14 +156,12 @@ If not found, php, ssh and python modoules will be installed on first run
  - Termux from play store in not supported. Download termux from fdroid or github
  - VPN or proxy prevents tunneling and even proper internet access. Turn them off you have issues.
  - Some android requires hotspot to start Cloudflared and Loclx. If you face 'tunneling failed' in android, most probably your hotspot is turned off. Turn it on and keep it on untill you close MaxPhisher.
- - If you want mailing credentials then you need to use app password. Visit [here](https://myaccount.google.com/u/0/apppasswords) and generate an app password, put that in `files/email.json`. You may need to enable 2FA before it.
+
 
 ## [!] Disclaimer
 ***This tool is developed for educational purposes. Here it demonstrates how phishing works. If anybody wants to gain unauthorized access to someones social media, he/she may try out this at his/her own risk. You have your own responsibilities and you are liable to any damage or violation of laws by this tool. The author is not responsible for any misuse of MaxPhisher!***
 
-### [*] Support
-####  Want to show support? Just spread the word and smash the star button
-###### Donate BTC: ***3Lx8ikQQgZZpmFJzHDBuQHXzLXMeWMcZF3***
+
 
 ## Credits:
 [PyPhisher](https://github.com/KasRoudra/PyPhisher)
@@ -193,14 +171,4 @@ If not found, php, ssh and python modoules will be installed on first run
 [Storm-Breaker](https://github.com/ultrasecurity/Storm-Breaker)
 [Seeker](https://github.com/thewhiteh4t/seeker)
 
-## [~] Find Me on :
 
-- [![Github](https://img.shields.io/badge/Github-KasRoudra-green?style=for-the-badge&logo=github)](https://github.com/KasRoudra)
-
-- [![Gmail](https://img.shields.io/badge/Gmail-KasRoudra-green?style=for-the-badge&logo=gmail)](mailto:kasroudrakrd@gmail.com)
-
-- [![Facebook](https://img.shields.io/badge/Facebook-KasRoudra-green?style=for-the-badge&logo=facebook)](https://facebook.com/KasRoudra)
-
-- [![Messenger](https://img.shields.io/badge/Messenger-KasRoudra-green?style=for-the-badge&logo=messenger)](https://m.me/KasRoudra)
-
-- [![Telegram](https://img.shields.io/badge/Telegram-KasRoudra-indigo?style=for-the-badge&logo=telegram)](https://t.me/KasRoudra)
