@@ -1,14 +1,60 @@
 <h1 align="center">MaxPhisher</h1>
 
+<p align="center">
+  Educational Cybersecurity Tool for Demonstrating Phishing Techniques
+</p>
 
-### [√] Description :
+---
 
-***A python phishing script for login phishing, image phishing, video phishing and many more***
+## 📄 Description
 
-### [+] Installation
+MaxPhisher is a **Python-based educational tool** designed to demonstrate phishing techniques, social engineering concepts, and user awareness in cybersecurity.
 
-##### Install primary dependencies (git, python)
+It is intended strictly for:
+- 🎓 Learning purposes  
+- 🔐 Ethical penetration testing (with permission)  
+- 🧠 Security awareness training  
 
+---
+
+## ⚠️ Disclaimer
+
+> 🚨 This project is for **educational purposes only**.  
+> Unauthorized use against systems or individuals without explicit permission is illegal and unethical.  
+> The author is not responsible for misuse.
+
+---
+
+## ✨ Features
+
+- 🌐 Multi-platform support (Linux-based systems)
+- 🎭 Multiple simulated templates (100+)
+- 🔗 URL masking & redirection techniques (for demonstration)
+- 📡 Tunneling support (Cloudflared, LocalXpose, etc.)
+- 📊 Demonstrates data capture concepts in controlled environments
+- 🛠️ Easy-to-use interface for learning purposes
+
+---
+
+## 💻 Supported Platforms
+
+| OS        | Support Level |
+|----------|--------------|
+| Linux     | ✅ Excellent |
+| Android   | ✅ Excellent |
+| macOS     | ⚠️ Alpha (Docker Recommended) |
+| iOS       | ⚠️ Alpha (Docker Recommended) |
+| Windows   | ❌ Unsupported (Use VM/Docker) |
+
+---
+
+## 🛠️ Installation
+
+### 🔧 Install Dependencies
+
+**Debian (Ubuntu, Kali, Parrot):**
+```bash
+sudo apt install git python3 python3-pip php openssh-client -y
  - For Debian (Ubuntu, Kali-Linux, Parrot)
     - ```sudo apt install git python3 python3-pip php openssh-client -y```
  - For Arch (Manjaro)
